@@ -1,5 +1,5 @@
 # cockpit-module-advancedforms
-This module was built on top of the core Forms module of [Cockpit CMS](http://https://github.com/COCOPi/cockpit/tree/master) (standard version, not Cockpit Next).
+This module was built on top of the core Forms module of [Cockpit CMS](http://https://github.com/COCOPi/cockpit/tree/master) (standard version as of January 2017, not Cockpit Next).
 
 The module has been tested with one client only, so please be aware of any potential bugs.
 
