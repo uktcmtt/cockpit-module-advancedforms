@@ -1,0 +1,7 @@
+{
+    "name"       : "AdvancedForms",
+    "version"    : "0.1",
+    "description": "Extends the standard Forms to allow uploading of files and reCaptcha 2 (noCaptcha)",
+    "homepage"   : "",
+    "license"    : "MIT"
+}
