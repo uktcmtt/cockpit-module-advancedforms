@@ -21,6 +21,8 @@ This is a list of all features that were added on top of the core Forms module:
 
   * If an email is provided, all submitted files will be emailed as attachments.
   
+  * An optional max file size for uploaded files can be set in the form settings. File sizes are checked in the client with JS, as well as in the back-end.
+  
 1. **reCaptcha 2 (noCaptcha)**
   * If enabled from the form settings a capcha field will be placed in an element of your choice inside your form. This is passed as a form option when you initialize your form (see code example below).
   * To activate noCaptcha you must set the following two entries in the Cockpit registry: AdvancedFormsNoCaptcha_SecretKey and AdvancedFormsNoCaptcha_SiteKey. Get the keys from [Google reCaptcha](https://www.google.com/recaptcha/admin).
