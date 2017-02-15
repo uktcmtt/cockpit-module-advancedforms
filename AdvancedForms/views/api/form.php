@@ -154,5 +154,5 @@
 
 <form id="{{ $options["id"] }}" name="{{ $name }}" class="{{ $options["class"] }}" action="@route('/api/advancedforms/submit/'.$name)" method="post" onsubmit="return false;" enctype="multipart/form-data">
 <input type="hidden" name="__csrf" value="{{ $options["csrf"] }}">
-<input type="hidden" name="__fromEmailInputName" value="{{ $options["fromEmailInputName"] }}">
-<input type="hidden" name="__fromNameInputName" value="{{ $options["fromNameInputName"] }}">
+<input type="hidden" name="__fromEmailInputName" value="{{ isset($options["fromEmailInputName"]) ? $options["fromEmailInputName"] : "" }}">
+<input type="hidden" name="__fromNameInputName" value="{{ isset($options["fromNameInputName"]) ? $options["fromNameInputName"] : "" }}">
